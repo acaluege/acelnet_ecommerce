@@ -1,11 +1,4 @@
 <?php
 
-function show($tete)
-{
-    echo "<pre>";
-    print_r($tete);
-    echo "</pre>";
-}
-
-
-show($_GET);
+session_start();
+include "../private/core/init.php";
