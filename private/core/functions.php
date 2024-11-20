@@ -1,8 +1,8 @@
 <?php
 
-function show($tete)
+function debug($ver)
 {
     echo "<pre>";
-    print_r($tete);
+    print_r($ver);
     echo "</pre>";
 }
