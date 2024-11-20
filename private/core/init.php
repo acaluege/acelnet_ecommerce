@@ -1,6 +1,6 @@
 <?php
 
-include "../private/core/controller.php";
-include "../private/core/database.php";
-include "../private/core/functions.php";
-include "../private/core/app.php";
+require "controller.php";
+require "database.php";
+require "functions.php";
+require "app.php";
