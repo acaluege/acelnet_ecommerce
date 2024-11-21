@@ -7,7 +7,7 @@ define('DB_NAME', "ecommerce_db");
 define('DB_USER', "root");
 define('DB_PASS', "");
 
-define('DEDUG', true);
+define('DEBUG', true);
 
 if(DEBUG){
     

@@ -4,6 +4,7 @@ class Home extends Controller
 {
     public function index()
     {
-        $this->view('eshopper/index');
+        $data['page_title'] = "home";
+        $this->view('eshopper/index',$data);
     }
 }
