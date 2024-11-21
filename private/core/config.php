@@ -7,6 +7,8 @@ define('DB_NAME', "ecommerce_db");
 define('DB_USER', "root");
 define('DB_PASS', "");
 
+define('THEME','eshopper/');
+
 define('DEBUG', true);
 
 if(DEBUG){

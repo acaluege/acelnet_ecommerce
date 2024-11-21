@@ -1,4 +1,4 @@
-<?php $this->view('eshopper/header',$data); ?>
+<?php $this->view('header',$data); ?>
 	
 	<section id="slider"><!--slider-->
 		<div class="container">
@@ -756,4 +756,4 @@
 		</div>
 	</section>
 	
-<?php $this->view('eshopper/footer'); ?>
+<?php $this->view('footer'); ?>
