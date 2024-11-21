@@ -1,9 +1,9 @@
 <?php
 
-class Produtos
+class Produtos extends Controller
 {
     public function index()
     {
-        echo "pagina produtos";
+          $this->view('produtos');
     }
 }
